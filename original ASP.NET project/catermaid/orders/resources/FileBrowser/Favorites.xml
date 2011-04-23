@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- _LocalBinding -->
+<!-- _lcid="1033" _version="11.0.5510"-->
+
+
+<!-- _SIG="92LpZarNFpy8HPfXqs37FVYBlesUbCaEwW2c3wOeiSauCGyIeDDcvk12mNZ9UohBVZSwSrMJoGcwU5LBxi/hZdRcUwGDc6AmjuCRpvEf9JNlhH0tj6N1AXdFkXrlPaEtcoO2VQlmADKAuAJL9HsefGlO+pBlUpjwQMMsMWkghJU=" -->
+<SKUID>
+	<!-- Mapping Records -->
+	<!--
+		No		0
+		Yes		1
+
+		Enterprise	0
+		Retail		1
+		OEM		2
+
+		Setup		0
+		1stBoot		1
+		(Eula) Client 1, OEM 2, PIPC 3, Trial 4, OEMTrial 5, HomeUse 6, Student 7, PRC 8
+	-->
+
+	
+</SKUID>

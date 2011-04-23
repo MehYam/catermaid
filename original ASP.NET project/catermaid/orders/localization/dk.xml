@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization xmlns="obout:grid:localization-schema">
+  <grid
+     page_size_text  = "Rækker pr. side:"
+     records_text    = "Række:"
+     to_text         = "til"
+     of_text         = "af"
+     pages_text      = "Sider:"     
+     loading_text    = "Henter..."
+     no_records_text = "Der er ingen data tilgængelig."
+     resizing_tooltip_width = "Bredte:"
+     resizing_tooltip_pixels = "pixels"
+     type_validation_error = "Indtastet værdi i kolonne XXXXX er ikke korrekt.."
+     maxlength_validation_error = "The value you have entered in the XXXXX column exceeded the maximum number of YYYYY characters allowed for this column.">
+
+    <commands
+      add_link	      = "Opret"
+      edit_link       = "Rediger"
+      delete_link     = "Slet"
+      update_link     = "Opdater"
+      cancel_link     = "Annuller"
+      save_link       = "Gem"     
+      save_all_link   = "Save All"
+      cancel_all_link = "Cancel All"
+      remove_link     = "Remove"
+      modify_link     = "Modify"
+      undelete_link   = "Undelete"
+    />
+
+    <filter
+        button_show_filter   = "Vis filter"
+        button_hide_filter   = "Skjul filter"
+        button_filter        = "Aktiver filter"
+        button_remove_filter = "Fjern filter"
+        
+        filter_criteria_nofilter                 = "Ingen filter"
+        filter_criteria_contains                 = "Indeholder"
+        filter_criteria_does_not_contain         = "Indeholder ikke"
+        filter_criteria_starts_with              = "Starter med"
+        filter_criteria_ends_with                = "Slutter med"
+        filter_criteria_equal_to                 = "Er lig med"
+        filter_criteria_not_equal_to             = "Ikke lig med"
+        filter_criteria_smaller_than             = "Mindre end"
+        filter_criteria_greater_than             = "Større end"
+        filter_criteria_smaller_than_or_equal_to = "Mindre end eller lig med"
+        filter_criteria_greater_than_or_equal_to = "Større end eller lig med"
+        filter_criteria_is_null                  = "Er Null"
+        filter_criteria_is_not_null              = "Er ikke Null"
+        filter_criteria_is_empty                 = "Er tom"
+        filter_criteria_is_not_empty             = "Er ikke tom"
+    />
+
+    <grouping
+        grouping_area_text = "Drag a column header here to group by that column."
+        group_information_next_page = " (Displaying XXXXX of YYYYY records - This group is continued on the next page)"
+        group_information_previous_page = " (Displaying XXXXX of YYYYY records - This group was started on the previous page)"
+        group_information_previous_next_page = " (Displaying XXXXX of YYYYY records - This group was started on the previous page and continues on the next page)"
+    />
+
+    <paging
+      total_number_of_pages  = " (out of XXXXX)"
+      manual_paging_link  = "Go to page »"
+    />
+    
+  </grid>
+</localization>

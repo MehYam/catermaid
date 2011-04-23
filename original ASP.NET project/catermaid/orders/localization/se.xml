@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<localization xmlns="obout:grid:localization-schema">
+  <grid
+     page_size_text  = "Rader per sida:"
+     records_text    = "Poster:"
+     to_text         = "till"
+     of_text         = "av"
+     pages_text      = "Sidor:"         
+     loading_text    = "Laddar..."
+     no_records_text = "Det finns inga poster"
+     resizing_tooltip_width = "Bredd:"
+     resizing_tooltip_pixels = "pixels"
+     type_validation_error = "Värdet i kolumn XXXXX är inte giltigt."
+     maxlength_validation_error = "The value you have entered in the XXXXX column exceeded the maximum number of YYYYY characters allowed for this column.">
+
+    <commands
+      add_link	      = "Lägg till"
+      edit_link       = "Redigera"
+      delete_link     = "Ta bort"
+      update_link     = "Uppdatera"
+      cancel_link     = "Avbryt"
+      save_link       = "Spara" 
+      save_all_link   = "Save All"
+      cancel_all_link = "Cancel All"
+      remove_link     = "Remove"
+      modify_link     = "Modify"
+      undelete_link   = "Undelete"
+    />
+
+    <filter
+       button_show_filter   = "Visa Filter"
+       button_hide_filter   = "Göm Filter"
+       button_filter        = "Använd Filter"
+       button_remove_filter = "Ta bort Filter"
+        
+       filter_criteria_nofilter                 = "Inget Filter"
+       filter_criteria_contains                 = "Innehåller"
+       filter_criteria_does_not_contain         = "Innehåller Inte"
+       filter_criteria_starts_with              = "Börjar Med"
+       filter_criteria_ends_with                = "Avslutas med"
+       filter_criteria_equal_to                 = "Lika Med"
+       filter_criteria_not_equal_to             = "Inte Lika Med"
+       filter_criteria_smaller_than             = "Mindre Än"
+       filter_criteria_greater_than             = "Större Än"
+       filter_criteria_smaller_than_or_equal_to = "Mindre Än Eller Lika Med"
+       filter_criteria_greater_than_or_equal_to = "Större Än Eller Lika Med"
+       filter_criteria_is_null                  = "Är Null"
+       filter_criteria_is_not_null              = "Är Inte Null"
+       filter_criteria_is_empty                 = "Är Tom"
+       filter_criteria_is_not_empty             = "Är Inte Tom"
+    />
+
+    <grouping
+        grouping_area_text = "Dra kolumnhuvud hit för att gruppera på den."
+        group_information_next_page = " (Visar XXXXX av YYYYY poster - Denna gruppen fortsätter på nästa sida)"
+        group_information_previous_page = " (Visar XXXXX av YYYYY poster - Denna gruppen började på förra sidan)"
+        group_information_previous_next_page = " (Visar XXXXX av YYYYY poster - Denna gruppen började på förra sidan och fortsätter på nästa sida)"
+    />
+
+    <paging
+      total_number_of_pages  = " (out of XXXXX)"
+      manual_paging_link  = "Go to page »"
+    />
+
+  </grid>
+ </localization>
+ 

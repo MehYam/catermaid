@@ -1,0 +1,41 @@
+/* 
+Title:     Fixes for IE/win
+Author:    dan@simplebits.com
+Updated:   Nov 30 2006
+*/
+
+/* fixes font-size keyword problem for IE5/Win */
+body {
+	font-size: x-small; /* IE5 Win */
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	font-size: small;
+	}
+html>body { /* be nice to Opera */
+	font-size: small;
+	}
+
+/* self-clearing floats
+----------------------------------------------------- */
+
+/* trigger hasLayout and target ie5+6/win only */
+* html #nav ul, 
+* html #main-body,
+* html #flickr,
+* html #extra,
+* html #port,
+* html .prod-feature,
+* html dl.teaser {
+	height: 1%;
+	}
+/* trigger hasLayout and target ie7/win only */
+*:first-child+html #nav ul, 
+*:first-child+html #title, 
+*:first-child+html #main-body, 
+*:first-child+html #flickr, 
+*:first-child+html #extra,
+*:first-child+html #port,
+*:first-child+html .prod-feature,
+*:first-child+html dl.teaser {
+	min-height: 1px;
+	}

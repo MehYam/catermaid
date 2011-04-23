@@ -1,0 +1,674 @@
+	.ob_gMCont /*.ob_gridMainContainer*/
+	{
+		border: 4px solid #5898C5;			
+	}
+	.ob_gMContC	
+	{		
+	}
+		
+		
+	/* Styles for the Header */
+	.ob_gHCont /*.ob_gridHeaderContainer*/
+	{
+		overflow: hidden;
+		background-image: url(header_placeholder.gif);
+	}
+	.ob_gH /*.ob_gridHeader*/
+	{			
+		background-image: url(header.gif);
+		height: 31px;
+		padding: 0px;
+	}	
+	.ob_gH td /*.ob_gridHeader td*/
+	{				
+		/*border-left: 1px solid #FFFFFF;*/
+		border-bottom: 0px;
+		border-top: 1px solid #FFFFFF;		
+		padding-top: 1px;
+		height: 31px;
+	}	
+	.ob_gH td table td /*.ob_gridHeader td table td*/
+	{											
+		border-right: 0px;
+		border-bottom: 0px;
+		border-left: 0px;
+		border-top: 0px;
+	}				
+	.ob_gCH /*.ob_gridColumnHeader*/
+	{
+		font-family: Tahoma;
+		font-size: 10px;
+		font-weight: bold;		
+		color: #FFFFFF;
+		text-align: left;				
+		border:0px;		
+		cursor: pointer;
+		vertical-align: middle;
+		padding-left: 0px;
+	}
+	.ob_gHA /*.ob_gridHeaderArrow*/
+	{		
+		border:0px;		
+		cursor: pointer;
+		text-align: left;
+		width: 100%;
+		vertical-align: middle;				
+	}	
+	.ob_gHA img /*.ob_gridHeaderArrow img*/
+	{
+		margin-left: 10px;
+		width: 7px;
+		height: 4px;		
+	}	
+	.ob_gRB /*.ob_gridResizeButton*/
+	{
+		font-size: 3px;		
+		width: 3px;			
+		padding:0px;
+		border: 0px;
+		margin-left: 0px;
+		margin-right: 0px;		
+	}
+	.ob_gRT /*.ob_gridResizeTooltip*/
+	{
+		cursor: default;		
+		margin: 0px;
+		padding: 1px;
+		border: 1px solid #000000;
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;	
+		height: 12px;
+		margin-top: 30px;		
+		vertical-align: middle;
+		background-color: #F5F5DC;
+	}
+	.ob_gRT span /*.ob_gridResizeTooltip span*/
+	{
+		padding-left: 3px;
+	}
+	.ob_gBH /*.ob_gridBodyHeader*/
+	{	
+		display: none;
+		height: 1px;		
+		background-color: #5299C0;	
+	}
+	.ob_gBH td /*.ob_gridBodyHeader td*/
+	{		
+		width: 100%;
+		font-size: 1px;
+		border-top: 3px solid #195A7E;
+		border-bottom: 3px solid #195A7E;
+	}
+	.ob_gBH div /*.ob_gridBodyHeader div*/
+	{
+		height: 1px;
+	}
+	.ob_gGA /*.ob_gridGroupingArea*/
+	{
+		font-family: Tahoma;
+		font-size: 10px;
+		font-weight: bold;		
+		color: #FFFFFF;
+		text-align: left;				
+		border:0px solid #FFFFFF;
+		padding-left: 20px;		
+		height: 26px;
+	}
+	.ob_gGADC /*.ob_gridGroupingAreaDefaultColumn*/
+	{
+		font-family: Tahoma;
+		font-size: 10px;
+		font-weight: bold;		
+		color: #FFFFFF;
+		text-align: left;				
+		border:0px solid #FFFFFF;		
+	}
+	.ob_gGDC /*.ob_gridGroupDraggingColumn*/
+	{
+		font-family: Tahoma;
+		font-size: 10px;
+		font-weight: bold;		
+		color: #FFFFFF;
+		text-align: left;				
+		border: 1px solid #FFFFFF;
+		padding-left: 20px;
+		background-image: url(header.gif);	
+		vertical-align: middle;
+		height: 24px;		
+	}
+	.ob_gGAC /*.ob_gridGroupingAreaColumn*/
+	{
+		font-family: Tahoma;
+		font-size: 10px;
+		font-weight: bold;		
+		color: #000000;
+		text-align: center;
+		border: 1px solid #FFFFFF;		
+		background-image: none;
+		vertical-align: middle;
+		background-color: #C7E4F8;
+		height: 12px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		padding-left: 10px;
+		padding-right: 10px;
+		float:left;
+		cursor: move;
+	}
+	.ob_gGACS /*.ob_gridGroupingAreaColumnSpacer*/
+	{
+		width: 15px;
+		height: 1px;
+		border-top: 1px solid #FFFFFF;
+		font-size: 1px;		
+	}
+	.ob_gGATA /*.ob_gridGroupingAreaTopArrow*/
+	{
+		background-image: url(group_arrow_top.gif);
+		width: 9px;
+		height: 9px;
+		font-size: 1px;
+		padding: 0px;
+	}
+	.ob_gGABA /*.ob_gridGroupingAreaBottomArrow*/
+	{
+		background-image: url(group_arrow_bottom.gif);
+		width: 9px;
+		height: 9px;
+		font-size: 1px;
+		padding: 0px;
+	}
+	.ob_gHCHWG /*ob_gridHeaderColumnHighlightedWhenGrouping*/
+	{
+		background-image: none;
+		background-color: #333333;
+	}
+	.ob_gHCHWG table td
+	{
+		color: #FFFFFF;
+	}
+	.ob_gGACHWD /*ob_gridGroupingAreaColumnHighlightedWhenDragging*/
+	{
+		font-family: Tahoma;
+		font-size: 10px;
+		font-weight: bold;		
+		color: #FFFFFF;
+		text-align: center;				
+		border: 1px solid #FFFFFF;		
+		background-image: none;
+		vertical-align: middle;
+		background-color: #333333;
+		height: 12px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		padding-left: 10px;
+		padding-right: 10px;
+		float:left;
+		cursor: move;
+	}
+	
+	
+	
+	
+	
+	/* Styles for the Body */
+	.ob_gBCont
+	{
+		overflow: auto;
+		overflow-x: hidden;
+	}
+	.ob_gBody
+	{
+		empty-cells: show;
+		overflow: hidden;
+	}	
+	.ob_gRGH /*.ob_gridRecordGroupHeader*/
+	{
+		background-image: url(record_group_header.gif);
+		height: 24px;
+	}
+	.ob_gRGHC /*.ob_gridRecordGroupHeaderCell*/
+	{					
+		cursor: default;
+		margin: 0px;
+		padding-right: 0px;		
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		border-left: 0px solid #7BB8D9;
+		border-top: 0px solid #7BB8D9;		
+		border-right: 0px solid #7BB8D9;
+		font-family: Verdana;
+		font-size: 10px;
+		color: #FFFFFF;	
+		height: 24px;	
+		vertical-align: middle;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.ob_gRGHB /*.ob_gridRecordGroupButton*/
+	{	
+		padding-left: 3px;
+		padding-right: 3px;	
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+	}	
+	.ob_gRGHB img /*.ob_gridRecordGroupButton img*/
+	{
+		cursor: pointer;
+		vertical-align: middle;
+	}
+	.ob_gRGBS /*.ob_gridRecordGroupButtonSpacer*/
+	{
+		width: 17px;
+		font: 1px;
+		float: left;
+	}
+	.ob_gR /*.ob_gridRecord*/
+	{
+		background-color: #E5F4FF;
+	}
+	.ob_gRA /*.ob_gridRecordAlternate*/
+	{
+		background-color: #C7E4F8;
+	}		
+	.ob_gRS /*.ob_gridRecordSelected*/
+	{
+		background-color: #80B5DA;		
+	}
+	.ob_gRH /*.ob_gridRecordHover*/
+	{
+		background-color: #5898C5;		
+	}	
+	.ob_gCP /*.ob_gridCellPadding*/
+	{
+		width:19px;
+		float:left;
+		font-size:1px;
+	}
+	.ob_gC /*.ob_gridCell*/
+	{
+		cursor: default;
+		padding-right: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		border-right: 0px;
+		border-top: 0px;				
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;	
+		height: 24px;	
+		vertical-align: middle;
+	}
+	.ob_gIE /*.ob_gridInvisibleElement*/
+	{
+		display: none;
+	}
+	.ob_gRC /*.ob_gridResizableContent*/
+	{
+		overflow: hidden;		
+		white-space: nowrap;
+		padding-left: 19px;
+	}
+	.ob_gRCW /*.ob_gridResizableContentWithWrap*/
+	{
+		overflow: hidden;		
+		white-space: normal;
+		padding-left: 19px;
+	}
+	.ob_gSA /*.ob_gridSelectionArea*/
+	{
+		background-color: #80B5DA;
+		border: 1px solid #80B5DA;
+		font-size: 1px;
+		z-index: 0;
+	}
+	a.ob_gAL /*a.ob_gridActionLink*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color: #396F96;
+		font-weight: bold;
+		text-decoration:none;
+	}
+	a.ob_gAL:hover /*a.ob_gridActionLink:hover*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color: #396F96;
+		font-weight: bold;				
+		text-decoration:underline;		
+	}		
+	.ob_gL /*.ob_gridLoading*/
+	{		
+		padding: 3px; 		
+		font-family: Verdana;
+		font-size: 10px;
+		color:#000000;
+		border: 0px;
+		background-color: #E5F4FF;
+	}	
+	.ob_gNRM /*.ob_gridNoRecordsMessage*/
+	{
+		padding: 3px; 		
+		font-family: Verdana;
+		font-size: 10px;
+		color:#000000;
+		border: 0px;
+		background-color: #E5F4FF;		
+	}	
+	.ob_gEC /*.ob_gridEditControl*/
+	{
+		padding: 0px;
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;			
+		background-color: #E5F4FF;
+		width: 96%;
+		border: 1px solid #000000;
+	}	
+	.ob_gRL /*.ob_gridResizeLines*/
+	{
+		background-color: #82817A;
+		width: 1px;
+	}	
+	.ob_gD /*.ob_gridData*/
+	{
+		display: none;
+	}
+	.ob_gRETpl /*.ob_gridRowEditTemplate*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;
+		padding: 15px;
+		border-top: 1px solid #7BB8D9;
+	}
+	.ob_gCTA /*.ob_gridCellTemporaryAdded*/
+	{
+		cursor: default;
+		padding-right: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		border-right: 0px;
+		border-top: 0px;				
+		font-family: Verdana;
+		font-size: 10px;			
+		height: 24px;	
+		vertical-align: middle;
+		
+		color: #0000FF;
+	}
+	.ob_gCTE /*.ob_gridCellTemporaryEdited*/
+	{
+		cursor: default;
+		padding-right: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		border-right: 0px;
+		border-top: 0px;				
+		font-family: Verdana;
+		font-size: 10px;			
+		height: 24px;	
+		vertical-align: middle;
+		
+		color: #0000FF;		
+	}
+	.ob_gCTD /*.ob_gridCellTemporaryDeleted*/
+	{
+		cursor: default;
+		padding-right: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		border-right: 0px;
+		border-top: 0px;				
+		font-family: Verdana;
+		font-size: 10px;			
+		height: 24px;	
+		vertical-align: middle;
+		
+		color: #FF0000;			
+		text-decoration: line-through;
+	}
+	
+	
+	
+	
+		
+		
+	/* Styles for the Footer */
+	.ob_gF /*.ob_gridFooter*/
+	{			
+	}
+	.ob_gFContent /*.ob_gridFooterContent*/
+	{
+		background-color: #91BDDD;
+		padding: 0px;
+		margin-top: 2px;
+		border: 0px;
+		height: 25px;
+		padding-left: 20px;
+	}	
+	.ob_gF td /*.ob_gridFooter td*/
+	{
+		cursor: default;			
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;		
+		border-bottom: 1px solid #FFFFFF;		
+	}
+	.ob_gBF /*.ob_gridBodyFooter*/
+	{	
+		height: 3px;
+		display: none;		
+	}
+	.ob_gBF td /*.ob_gridBodyFooter td*/
+	{		
+		font-size: 1px;		
+		border-bottom: 0px;
+	}	
+	.ob_gBF div /*.ob_gridBodyFooter div*/
+	{
+		height: 1px;
+	}
+	.ob_gF td table td /*.ob_gridFooter td table td*/
+	{
+		border-top: 0px;
+		border-bottom: 0px;		
+		vertical-align: middle;
+	}
+	.ob_gPST /*.ob_gridPageSizeText*/
+	{		
+		/*width: 185px;
+		text-align: right;	*/
+	}
+	.ob_gPSS /*.ob_gridPageSizeSelector*/
+	{
+		cursor: default;			
+		font-family: Verdana;
+		font-size: 10px;
+		color:#323232;
+		background-color: #F5F5F5;
+		margin-left: 7px;
+	}			
+	a.ob_gALF /*a.ob_gridActionLinkFooter*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color: #396F96;
+		font-weight: bold;
+		text-decoration:none;
+	}
+	a.ob_gALF:hover /*a.ob_gridActionLinkFooter:hover*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color: #396F96;
+		font-weight: bold;				
+		text-decoration: underline;		
+	}	
+	.ob_gA_FS /*.ob_gridAdd_FilterSpacer*/
+	{
+		width: 30px;
+		text-align: center;
+	}
+	.ob_gFRP /*ob_gridFooterRecordsPages*/
+	{		
+	}
+	.ob_gNL /*.ob_gridNavigationLink*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color:#396F96;
+		font-weight: bold;
+		text-decoration:underline;
+		cursor: pointer;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.ob_gNS /*.ob_gridNavigationSeparator*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color:#396F96;
+		font-weight: normal;
+		text-decoration:none;
+		cursor: default;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.ob_gNT /*.ob_gridNavigationText*/
+	{
+		font-family: Verdana;
+		font-size: 10px;
+		color:#396F96;
+		font-weight: normal;		
+		cursor: default;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.ob_gNI /*.ob_gridNavigationImage*/
+	{
+		vertical-align: middle;
+		padding-left: 8px;
+		padding-right: 8px;
+		cursor: pointer;
+	}
+	.ob_gHFC /*.ob_gridHeaderFilterCell*/
+	{
+		background-image: url(header.gif);
+		font-family: Verdana;
+		font-size: 10px;
+		margin: 0px;				
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-top: 0px;
+		border-left: 0px;	
+		color: #FFFFFF;	
+	}
+	.ob_gHFC div
+	{
+		padding-right: 2px;
+		padding-left: 1px;		
+	}
+	.ob_gHFC div table td
+	{		
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+	.ob_gFCB /*.ob_gridFilterCriteriasButton*/
+	{
+		cursor: pointer;
+		vertical-align: middle;
+		width: 10px;		
+	}
+	.ob_gFCB img
+	{
+		cursor: pointer;
+		margin-left: 1px;
+		text-align: center;
+		margin-right: 1px;
+	}
+	.ob_gFCC /*.ob_gridFilterCriteriasContainer*/
+	{
+		padding: 0px;
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;
+		background-color: #C7E4F8;
+		width: 150px;
+		border: 1px solid #000000;
+		position: absolute;
+		cursor: pointer;
+		vertical-align: middle;
+	}
+	.ob_gFCC div
+	{
+		width: 149px;
+	}
+	.ob_gFC_N /*.ob_gridFilterCriteria_Normal*/
+	{
+		background-color: #C7E4F8;
+	}
+	.ob_gFC_H /*.ob_gridFilterCriteria_Highlighted*/
+	{
+		background-color: #80B5DA;
+	}
+	.ob_gFCT /*ob_gridFilterControlTextbox*/
+	{
+		padding: 0px;
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;			
+		background-color: #E5F4FF;
+		width: 100%;
+		border: 1px solid #000000;
+		cursor: pointer;		
+	}
+	.ob_gFDiv
+	{
+		overflow: hidden;
+		padding: 0px;
+		margin: 0px;
+	}
+	.ob_gEwO /*.ob_gridElementWithOverflow*/
+	{
+		overflow: hidden;
+	}
+	.ob_gDFSC /*.ob_gridDummyFilterScrollingColumn*/
+	{
+		background-image: url(header.gif);
+	}
+	.ob_gDFSC div
+	{
+		font-size: 1px;
+		width: 0px;
+	}
+	.ob_gTNOP /*.ob_gridTotalNumberOfPages*/
+	{
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.ob_gMPS /*.ob_gridManualPagingSection*/
+	{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.ob_gMPS table td /*.ob_gridManualPagingSection table td*/
+	{
+		padding-left: 5px;
+	}
+	
+	.ob_gMPS table td input /*.ob_gridManualPagingSection table td input*/
+	{
+		width: 20px;
+	}

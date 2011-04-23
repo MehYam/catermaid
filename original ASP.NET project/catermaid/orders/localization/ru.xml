@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<localization xmlns="obout:grid:localization-schema">
+  <grid
+     page_size_text  = "Записей на странице:"
+     records_text    = "Записи:"
+     to_text         = "по"
+     of_text         = "из"
+     pages_text      = "Страниц:"     
+     loading_text    = "Загрузка..."
+     no_records_text = "Нет доступных записей."
+     resizing_tooltip_width = "Ширина:"
+     resizing_tooltip_pixels = "пикселей"
+     type_validation_error = "Вы ввели неправильные данные в колонку ХХХХХ"
+     maxlength_validation_error = "The value you have entered in the XXXXX column exceeded the maximum number of YYYYY characters allowed for this column.">
+
+    <commands
+      add_link        = "Добавить запись"
+      edit_link       = "Редактировать"
+      delete_link     = "Удалить"
+      update_link     = "Сохранить"
+      cancel_link     = "Отмена"
+      save_link       = "Сохранить"
+      save_all_link   = "Save All"
+      cancel_all_link = "Cancel All"
+      remove_link     = "Remove"
+      modify_link     = "Modify"
+      undelete_link   = "Undelete"
+    />
+
+    <filter
+       button_show_filter   = "Показать Фильтр"
+       button_hide_filter   = "Спрятать Фильтр"
+       button_filter        = "Применить Фильтр"
+       button_remove_filter = "Убрать Фильтр"
+        
+       filter_criteria_nofilter                 = "Нет Фильтра"
+       filter_criteria_contains                 = "Содержит"
+       filter_criteria_does_not_contain         = "Не Содержит"
+       filter_criteria_starts_with              = "Начинается С"
+       filter_criteria_ends_with                = "Заканчивается На"
+       filter_criteria_equal_to                 = "Равен"
+       filter_criteria_not_equal_to             = "Не Равен"
+       filter_criteria_smaller_than             = "Меньше Чем"
+       filter_criteria_greater_than             = "Больше Чем"
+       filter_criteria_smaller_than_or_equal_to = "Меньше Чем Или Равен"
+       filter_criteria_greater_than_or_equal_to = "Больше Чем Или Равен"
+       filter_criteria_is_null                  = "Нулевой"
+       filter_criteria_is_not_null              = "Не Нулевой"
+       filter_criteria_is_empty                 = "Пустой"
+       filter_criteria_is_not_empty             = "Не Пустой"
+    />
+
+    <grouping
+        grouping_area_text = "Drag a column header here to group by that column."
+        group_information_next_page = " (Displaying XXXXX of YYYYY records - This group is continued on the next page)"
+        group_information_previous_page = " (Displaying XXXXX of YYYYY records - This group was started on the previous page)"
+        group_information_previous_next_page = " (Displaying XXXXX of YYYYY records - This group was started on the previous page and continues on the next page)"
+    />
+
+    <paging
+      total_number_of_pages  = " (out of XXXXX)"
+      manual_paging_link  = "Go to page »"
+    />
+
+  </grid>
+</localization>

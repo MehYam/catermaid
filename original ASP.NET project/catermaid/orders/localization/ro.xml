@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization xmlns="obout:grid:localization-schema">
+  <grid
+     page_size_text  = "Inregistrări pe pagină:"
+     records_text    = "Inregistrări:"
+     to_text         = "pană la"
+     of_text         = "din"
+     pages_text      = "Pagini:"     
+     loading_text    = "Se încarcă..."
+     no_records_text = "Nu există înregistrări disponibile."
+     resizing_tooltip_width = "Lăţime:"
+     resizing_tooltip_pixels = "pixlei"
+     type_validation_error = "Valoarea pe care aţi introdus-o in coloana XXXXX nu este validă."
+     maxlength_validation_error = "Valoarea pe care aţi introdus-o in coloana XXXXX a depăşit numărul maxim de YYYYY caractere permise pentru această coloană.">
+
+    <commands
+      add_link	      = "Adaugă"
+      edit_link       = "Editează"
+      delete_link     = "Şterge"
+      update_link     = "Salvează"
+      cancel_link     = "Renunţă"
+      save_link       = "Salvează"
+      save_all_link   = "Salvează Tot"
+      cancel_all_link = "Renunţă"
+      remove_link     = "Şterge"
+      modify_link     = "Modifică"
+      undelete_link   = "Refă"
+    />
+    
+    <filter
+      button_show_filter   = "Arată Filtru"
+      button_hide_filter   = "Ascunde Filtru"
+      button_filter        = "Filtrează"
+      button_remove_filter = "Renunţă la Filtru"
+       
+      filter_criteria_nofilter                 = "Fără Filtru"
+      filter_criteria_contains                 = "Conţine"
+      filter_criteria_does_not_contain         = "Nu Conţine"
+      filter_criteria_starts_with              = "Începe Cu"
+      filter_criteria_ends_with                = "Se Termină Cu"
+      filter_criteria_equal_to                 = "Egal Cu"
+      filter_criteria_not_equal_to             = "Diferit De"
+      filter_criteria_smaller_than             = "Mai Mic Ca"
+      filter_criteria_greater_than             = "Mai Mare Ca"
+      filter_criteria_smaller_than_or_equal_to = "Mai Mic Sau Egal Cu"
+      filter_criteria_greater_than_or_equal_to = "Mai Mare Sau Egal Cu"
+      filter_criteria_is_null                  = "Este Nul"
+      filter_criteria_is_not_null              = "Nu Este Nul"
+      filter_criteria_is_empty                 = "Este Gol"
+      filter_criteria_is_not_empty             = "Nu Este Gol"
+    />
+
+    <grouping
+        grouping_area_text = "Trage un cap de coloană aici pentru a grupa după acea coloană."
+        group_information_next_page = " (Sunt afişate XXXXX din YYYYY înregistrări - Acest grup este continuat pe pagina următoare)"
+        group_information_previous_page = " (Sunt afişate XXXXX din YYYYY înregistrări - Acest grup a fost început pe pagina anterioară)"
+        group_information_previous_next_page = " (Sunt afişate XXXXX din YYYYY înregistrări - Acest grup a fost început pe pagina anterioară şi este continuat pe pagina următoare)"
+    />
+
+    <paging
+      total_number_of_pages  = " (din XXXXX)"
+      manual_paging_link  = "Mergi la pagina »"
+    />
+    
+  </grid>
+</localization>

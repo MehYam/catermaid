@@ -1,0 +1,9 @@
+/* 
+Title:		SimpleBits screen styles and ie/win fixes
+Author: 	dan@simplebits.com
+*/
+
+/* import stylesheets and hide from ie/mac \*/
+@import url("master.css");
+@import url("ie.css");
+/* end import/hide */

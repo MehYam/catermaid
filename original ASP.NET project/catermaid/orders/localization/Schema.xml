@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes" >
+
+<AttributeType name="page_size_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="records_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="to_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="of_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="pages_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="loading_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="no_records_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="resizing_tooltip_width" required="yes" dt:type="string" dt:minLength="0" />
+<AttributeType name="resizing_tooltip_pixels" required="yes" dt:type="string" dt:minLength="0" />
+<AttributeType name="type_validation_error" required="yes" dt:type="string" dt:minLength="0" />
+<AttributeType name="maxlength_validation_error" required="yes" dt:type="string" dt:minLength="0" />
+
+<ElementType name="grid" content="eltOnly" order="many">
+  <attribute type="page_size_text" />
+  <attribute type="records_text" />
+  <attribute type="to_text" />
+  <attribute type="of_text" />
+  <attribute type="pages_text" />  
+  <attribute type="loading_text" />
+  <attribute type="no_records_text" />
+  <attribute type="resizing_tooltip_width" />
+  <attribute type="resizing_tooltip_pixels" />
+  <attribute type="type_validation_error" />
+  <attribute type="maxlength_validation_error" />
+
+  <element type="commands" minOccurs="0" maxOccurs="1" />
+  <element type="filter" minOccurs="0" maxOccurs="1" />
+  <element type="grouping" minOccurs="0" maxOccurs="1" />
+  <element type="paging" minOccurs="0" maxOccurs="1" />
+</ElementType>
+
+
+<AttributeType name="add_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="edit_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="delete_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="update_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="cancel_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="save_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="save_all_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="cancel_all_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="remove_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="modify_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="undelete_link" required="yes" dt:type="string" dt:minLength="1" />
+
+<ElementType name="commands" content="eltOnly" order="many">
+  <attribute type="add_link" />
+  <attribute type="edit_link" />
+  <attribute type="delete_link" />
+  <attribute type="update_link" />
+  <attribute type="cancel_link" />
+  <attribute type="save_link" />
+  <attribute type="save_all_link" />
+  <attribute type="cancel_all_link" />
+  <attribute type="remove_link" />
+  <attribute type="modify_link" />
+  <attribute type="undelete_link" />
+</ElementType>    
+
+
+<AttributeType name="button_show_filter" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="button_hide_filter" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="button_filter" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="button_remove_filter" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_nofilter" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_contains" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_does_not_contain" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_starts_with" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_ends_with" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_equal_to" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_not_equal_to" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_smaller_than" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_greater_than" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_smaller_than_or_equal_to" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_greater_than_or_equal_to" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_is_null" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_is_not_null" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_is_empty" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="filter_criteria_is_not_empty" required="yes" dt:type="string" dt:minLength="1" />
+  
+<ElementType name="filter" content="eltOnly" order="many">
+  <attribute type="button_show_filter" />
+  <attribute type="button_hide_filter" />
+  <attribute type="button_filter" />
+  <attribute type="button_remove_filter" />
+  <attribute type="filter_criteria_nofilter" />
+  <attribute type="filter_criteria_contains" />
+  <attribute type="filter_criteria_does_not_contain" />
+  <attribute type="filter_criteria_starts_with" />
+  <attribute type="filter_criteria_ends_with" />
+  <attribute type="filter_criteria_equal_to" />
+  <attribute type="filter_criteria_not_equal_to" />
+  <attribute type="filter_criteria_smaller_than" />
+  <attribute type="filter_criteria_greater_than" />
+  <attribute type="filter_criteria_smaller_than_or_equal_to" />
+  <attribute type="filter_criteria_greater_than_or_equal_to" />
+  <attribute type="filter_criteria_is_null" />
+  <attribute type="filter_criteria_is_not_null" />
+  <attribute type="filter_criteria_is_empty" />
+  <attribute type="filter_criteria_is_not_empty" />
+</ElementType>
+
+
+<AttributeType name="grouping_area_text" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="group_information_next_page" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="group_information_previous_page" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="group_information_previous_next_page" required="yes" dt:type="string" dt:minLength="1" />
+
+<ElementType name="grouping" content="eltOnly" order="many">
+  <attribute type="grouping_area_text" />
+  <attribute type="group_information_next_page" />
+  <attribute type="group_information_previous_page" />
+  <attribute type="group_information_previous_next_page" />
+</ElementType>
+
+  
+<AttributeType name="manual_paging_link" required="yes" dt:type="string" dt:minLength="1" />
+<AttributeType name="total_number_of_pages" required="yes" dt:type="string" dt:minLength="1" />
+
+<ElementType name="paging" content="eltOnly" order="many">
+  <attribute type="total_number_of_pages" />
+  <attribute type="manual_paging_link" />
+</ElementType>
+
+<ElementType name="localization" content="eltOnly" >
+  <element type="grid"  minOccurs="1" maxOccurs="1" />        
+</ElementType>
+
+</Schema>
