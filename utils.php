@@ -33,7 +33,7 @@ function authenticated() {
     return isset($_COOKIE['openid']) && wasOpenIDValidatedBefore($_COOKIE['openid']);
 }
 
-function validateID($oid, $email) {
+function validateUser($oid, $email) {
 
     //whitelist
     $allowedUsers = array('kerbumble@gmail.com', 'cdn.kai@gmail.com', 'briantu81@gmail.com');
@@ -62,6 +62,11 @@ function validateID($oid, $email) {
     }
 
     return false;
+}
+
+function invalidateUser()
+{
+    setcookie('openid','', time() - 10);
 }
 
 ?>

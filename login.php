@@ -3,6 +3,11 @@ require 'LightOpenID/openid.php';
 require 'utils.php';
 
 try {
+    if( isset($_REQUEST['logout']) )
+    {
+	invalidateUser();
+    }
+
     $openid = new LightOpenID;
     if (!$openid->mode) {
 	if (isset($_GET['login'])) {
@@ -31,7 +36,7 @@ try {
 	    } elseif ($openid->validate()) {
 		$attrs = $openid->getAttributes();
 		$userEmail = $attrs['contact/email'];
-		if (validateID($openid->identity, $userEmail)) {
+		if (validateUser($openid->identity, $userEmail)) {
 		    header('Location: home.php');
 		} else {
 		    echo "Sorry, $userEmail, you're not allowed access to Catermaid.  <br/> If you'd like to <em>sign out</em> of your current Google account and sign into another account, <a href='http://www.google.com/accounts/Logout?continue=https://www.google.com/accounts/ServiceLogin?hl=en'>click here</a>.";
