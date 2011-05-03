@@ -22,16 +22,16 @@ if (!authenticated()) {
     		background: #dbd5c5;
     	    }
     	</style>
-<!--	<script type="text/javascript" src="http://www.google.com/jsapi"/>  -->
-
         </head>
         <body>
+    	<script src="jQuery/jquery.js"></script>
+	<script src="jQuery/jquery.cookie.js"></script>
 
     	<div id="header">
     	    <div align="right">
-		    <strong><?php echo $_SESSION['user_email']; ?></strong>
-		    <img src="images/google_whiteblue.jpg"/>
-<!--		    <a href="http://www.google.com/accounts/Logout">Log out</a>  -->
+    		<strong><?php echo $_SESSION['user_email']; ?></strong>
+    		<img src="images/google_whiteblue.jpg"/>
+		<div id="signout"><a href="http://www.google.com/accounts/Logout">Log out</a> </div>
     	    </div>
     	    <div id="logo">
     		<img src="images/catermaid.ico" alt="CaterMaid" />
@@ -40,6 +40,20 @@ if (!authenticated()) {
     	    <hr>
     	    <br/>
     	</div>
+    	<br/>
+
+    	<script>
+	    //document ready event handler
+    	    $(document).ready(function(){
+
+		//click handler for "Log out" link
+		//delete the "openid" cookie when a user logs out
+    		$("#signout a").click(function()
+		{
+		    $.cookie("openid", null);
+    		});
+    	    });
+    	</script>
         </body>
     </html>
 

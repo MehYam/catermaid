@@ -11,7 +11,7 @@ function loadDB() {
     }
 }
 
-function wasOpenIDValidatedBefore($oid) {
+function wasUserValidatedBefore($oid) {
     //make sure the "openid" cookie value matches what we have in our DB
     //otherwise anyone with a cookie editor can create the "openid" key with any random value
     $conn = loadDB();
@@ -30,7 +30,7 @@ function wasOpenIDValidatedBefore($oid) {
 
 //check if we've saved a valid cookie
 function authenticated() {
-    return isset($_COOKIE['openid']) && wasOpenIDValidatedBefore($_COOKIE['openid']);
+    return isset($_COOKIE['openid']) && wasUserValidatedBefore($_COOKIE['openid']);
 }
 
 function validateUser($oid, $email) {
@@ -64,9 +64,5 @@ function validateUser($oid, $email) {
     return false;
 }
 
-function invalidateUser()
-{
-    setcookie('openid','', time() - 10);
-}
 
 ?>
